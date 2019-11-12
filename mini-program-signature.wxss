@@ -1,6 +1,4 @@
-page{
-	overflow-y: auto !important;
-}
+
 .signatrue-canvas{
 	width: 82%;
 	height:100%;
