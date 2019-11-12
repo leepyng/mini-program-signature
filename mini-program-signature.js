@@ -54,11 +54,11 @@ Page({
             callBack();
         }).exec();
     },
-  	onLoad(){
+    onLoad(){
         const that=this;
         const context = wx.createCanvasContext('signatureCanvas');
         this.setData({
             context: context
         })
-  	}
+    }
 })
