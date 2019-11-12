@@ -13,7 +13,6 @@ Page({
       	this.data.context.draw(true);
       	this.data.context.moveTo(e.changedTouches[0].x, e.changedTouches[0].y);
     },
-    /**清空画布 */
     bindClear: function() {
         this.data.context.clearRect(0, 0);
         this.data.context.draw();
