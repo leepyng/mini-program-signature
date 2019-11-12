@@ -2,7 +2,7 @@ const app = getApp()
 Page({
     data: {
         img:''
-  	},
+    },
     bindtouchstart: function(e) {
       	this.data.context.moveTo(e.changedTouches[0].x, e.changedTouches[0].y)
     },
