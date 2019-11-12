@@ -3,11 +3,9 @@ Page({
   	data: {
         img:''
   	},
-   	/**记录开始点 */
     bindtouchstart: function(e) {
       	this.data.context.moveTo(e.changedTouches[0].x, e.changedTouches[0].y)
     },
-    /**记录移动点，刷新绘制 */
     bindtouchmove: function(e) {
         this.data.context.lineWidth='7';
       	this.data.context.lineTo(e.changedTouches[0].x, e.changedTouches[0].y);
