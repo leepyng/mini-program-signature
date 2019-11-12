@@ -55,7 +55,7 @@ Page({
         }).exec();
     },
   	onLoad(){
-  		  const that=this;
+        const that=this;
   	    const context = wx.createCanvasContext('signatureCanvas');
       	this.setData({
   	      	context: context
