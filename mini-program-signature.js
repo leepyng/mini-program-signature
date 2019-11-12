@@ -1,6 +1,6 @@
 const app = getApp()
 Page({
-  	data: {
+    data: {
         img:''
   	},
     bindtouchstart: function(e) {
