@@ -1,0 +1,73 @@
+page{
+	overflow-y: auto !important;
+}
+.signatrue-canvas{
+	width: 82%;
+	height:100%;
+}
+.signatrue-board-title{
+	font-size:16px;
+	font-weight:500;
+	color: #fff;
+}
+
+
+
+
+.signatrue-Canvas {
+	background-color: blue;
+	width: 100%;
+	height: 200px;
+}
+.signatrue-board-box{
+	padding:10px ;
+	background-color: #fff;
+
+}
+
+.signatrue-board-content{
+	background:rgba(245,245,245,1);
+	border-radius:8px;
+	border:1px dashed rgba(176,184,204,1);
+	position: relative;
+	height: 68vh;
+	
+}
+.signatrue-board-btns{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+
+}
+
+.signatrue-board-btns>view{
+	display: block;
+	padding:7px 15px;
+	color:#fff;
+	background:rgba(47,125,205,1);
+	border-radius:4px;
+	text-align: center;
+	margin-bottom: 20px;
+	
+}
+.signatrue-board-btns>.clear{
+	background:rgba(248,248,248,1);
+	color:#2F7DCD;
+	border:1px solid rgba(47,125,205,1);
+}
+.signatrue-board-label{
+	font-size:12px;
+
+	font-weight:400;
+	color:rgba(155,155,155,1);
+}
+
+
+
+
+
+
+
+
+
+

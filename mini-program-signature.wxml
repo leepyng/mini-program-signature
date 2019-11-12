@@ -1,0 +1,20 @@
+<view class="signatrue-board">
+    <view class="signatrue-board-box"  >
+        <view class="signatrue-board-content">
+            <canvas canvas-id="signatureCanvas"   id='signatureCanvas' class="signatrue-canvas" bindtouchstart="bindtouchstart" bindtouchmove="bindtouchmove" ></canvas>
+            <view class="signatrue-board-btns">
+                <view class="ok" bindtap='bindOk' >
+                    保存
+                </view>
+                <view class="clear"  bindtap='bindClear'>
+                  清除
+                </view>
+            </view>
+            
+        </view>
+      
+    </view>
+    <view>
+         <image mode="scaleToFill" src="{{img}}" ></image>
+    </view>
+</view>
